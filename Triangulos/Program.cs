@@ -21,6 +21,8 @@ namespace Triangulos
                 {
                    
                     Console.WriteLine("Triangulo invalido!!!!");
+                    Console.WriteLine("Aperte enter para tentar novamente!!!");
+
                 }
                 else if (xx == zz && zz != yy || xx == yy && yy != zz || yy == zz && zz != xx)
                 {
